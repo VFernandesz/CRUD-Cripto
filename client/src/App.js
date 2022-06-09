@@ -45,10 +45,6 @@ function App() {
     Axios.delete(`http://localhost:3001/api/delete/${id}`);
   };
 
-  const searchName = (name) => {
-    Axios.get(`http://localhost:3001/api/search/${name}`);
-  };
-
   return (
     <div className="App">
       <h1>CRUD Cripto</h1>
