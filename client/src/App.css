@@ -1,0 +1,53 @@
+.App {
+  margin: auto;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 60%;   
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.form input{
+  margin: 10px;
+  font-size: 20px;
+}
+
+.form button {
+  margin-top: 10px;
+  width: 150px;
+  height:40px;
+}
+
+.form button:hover{
+  cursor: pointer;
+}
+
+.txtType1{
+  width: 300px;
+  height: 20px;
+}
+
+.txtType2{
+  width: 300px;
+  height: 80px;
+}
+
+.infoCripto{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  background-color: beige;
+  padding: 5px;
+  width: 100%;
+}
+
+.updtDel{
+  width: 350px;
+}
